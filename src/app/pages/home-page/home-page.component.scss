@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  &__link {
+    background: linear-gradient(279.15deg, #474CFB 0%, #8A36C0 100%);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 150px;
+    margin: 0 auto;
+    border: none;
+    padding: 10px 0 11px;
+    text-align: center;
+
+    &:hover {
+      background: linear-gradient(279.15deg, #4449d6 0%, #6c2c98 100%)
+    }
+  }
+}

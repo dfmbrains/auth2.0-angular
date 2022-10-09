@@ -1,0 +1,46 @@
+<app-form-box title="Login">
+  <form class="form">
+    <input placeholder="Email address" class="form__input" type="text">
+    <input placeholder="Password" class="form__input" type="password">
+    <button class="form__button">{{'Login' | uppercase}}</button>
+  </form>
+  <div class="alternative">
+    <p class="alternative__text">Or sign in using</p>
+    <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d_635_239)">
+        <path
+          d="M56 19.7188C56 16.0081 52.9919 13 49.2812 13H19.7188C16.0081 13 13 16.0081 13 19.7188V49.2812C13 52.9919 16.0081 56 19.7188 56H49.2812C52.9919 56 56 52.9919 56 49.2812V19.7188Z"
+          fill="white"/>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M45.0214 34.7448C45.0214 33.9825 44.953 33.2495 44.826 32.5459H34.7014V36.7042H40.4869C40.2377 38.048 39.4803 39.1865 38.3418 39.9488V42.646H41.816C43.8487 40.7746 45.0214 38.0186 45.0214 34.7448Z"
+              fill="#4285F4"/>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M34.701 45.2495C37.6035 45.2495 40.0369 44.2869 41.8155 42.6451L38.3413 39.9478C37.3787 40.5928 36.1473 40.9739 34.701 40.9739C31.9011 40.9739 29.5312 39.0829 28.6858 36.542H25.0944V39.3272C26.8632 42.8405 30.4987 45.2495 34.701 45.2495Z"
+              fill="#34A853"/>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M28.6863 36.5421C28.4713 35.8971 28.3492 35.2081 28.3492 34.4996C28.3492 33.7911 28.4713 33.1021 28.6863 32.4571V29.6719H25.0948C24.3668 31.1231 23.9514 32.7649 23.9514 34.4996C23.9514 36.2343 24.3668 37.8761 25.0948 39.3274L28.6863 36.5421Z"
+              fill="#FBBC05"/>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M34.701 28.0256C36.2793 28.0256 37.6963 28.568 38.8104 29.6332L41.8937 26.5499C40.032 24.8152 37.5986 23.75 34.701 23.75C30.4987 23.75 26.8632 26.159 25.0944 29.6723L28.6858 32.4575C29.5312 29.9166 31.9011 28.0256 34.701 28.0256Z"
+              fill="#EA4335"/>
+      </g>
+      <defs>
+        <filter id="filter0_d_635_239" x="0" y="0" width="73" height="73" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                         result="hardAlpha"/>
+          <feOffset dx="2" dy="2"/>
+          <feGaussianBlur stdDeviation="7.5"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_635_239"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_635_239" result="shape"/>
+        </filter>
+      </defs>
+    </svg>
+  </div>
+  <p class="switch">
+    Don't have an account? <a routerLink="/signup">Sign up</a>
+  </p>
+</app-form-box>

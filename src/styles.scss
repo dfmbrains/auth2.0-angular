@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 button {
@@ -10,4 +11,70 @@ button {
 
 li {
   list-style-type: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin: 0 0 30px;
+
+  &__input {
+    width: 300px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(15, 59, 91, 0.6);
+    padding: 15px;
+    background: linear-gradient(279.15deg, rgba(71, 76, 251, 0.05) 0%, rgba(138, 54, 192, 0.05) 100%);
+    border-radius: 14px;
+    border: none;
+  }
+
+  &__button {
+    background: linear-gradient(279.15deg, #474CFB 0%, #8A36C0 100%);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    padding: 10px 0 11px;
+
+    &:hover {
+      background: linear-gradient(279.15deg, #4449d6 0%, #6c2c98 100%)
+    }
+  }
+}
+
+.alternative {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__text {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    line-height: 17px;
+    color: rgba(15, 59, 91, 0.6);
+  }
+}
+
+.switch {
+  margin: 20px 0 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  color: rgba(53, 53, 61, 0.5);
+
+  a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    color: #474CFB;
+  }
 }

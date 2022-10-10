@@ -7,6 +7,9 @@ import {SignupPageComponent} from './pages/signup-page/signup-page.component';
 import {LoginPageComponent} from './pages/login-page/login-page.component';
 import {HomePageComponent} from './pages/home-page/home-page.component';
 import {FormBoxComponent} from './components/form-box/form-box.component';
+import {HttpClientModule} from "@angular/common/http";
+import {OAuthModule} from "angular-oauth2-oidc";
+import { TableAppPageComponent } from './pages/table-app-page/table-app-page.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +18,13 @@ import {FormBoxComponent} from './components/form-box/form-box.component';
     LoginPageComponent,
     HomePageComponent,
     FormBoxComponent,
+    TableAppPageComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    OAuthModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

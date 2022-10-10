@@ -4,4 +4,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+
+.loader {
+  animation: loaderCircling infinite 1s;
+}
+
+@keyframes loaderCircling {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

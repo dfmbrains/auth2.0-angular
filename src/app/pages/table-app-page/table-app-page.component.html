@@ -1,0 +1,18 @@
+<div class="table">
+  <div class="header">
+    <h1 class="header__title">Welcome {{ userInfo?.info?.name }}!</h1>
+    <div class="header__right">
+      <p>E-Mail: {{ userInfo?.info?.email }}</p>
+      <button (click)="logout()">Logout!</button>
+      <div>
+        <img src="{{ userInfo?.info?.picture }}" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="table__box">
+    <iframe
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRKkNp3lea87ZzA5xOKl8yf0K3IxL73zMaakSDUMqdwhOnhw373F4f4zOOHmwePQ6FkMEOZGRf_ZlCt/pubhtml?widget=true&amp;headers=false">
+
+    </iframe>
+  </div>
+</div>
